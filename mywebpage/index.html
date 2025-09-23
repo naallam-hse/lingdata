@@ -22,10 +22,7 @@
 	
 <!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) -->	
 	<body>
-		body {
-				font-family: 'Montserrat', sans-serif;
-			}
-
+	
 <!-- меню (navigation bar) -->
 
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -60,7 +57,10 @@
 					<div class="col-md-4">
 <!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
 <!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
-<img src="myphotoo.jpg" style="height:320px; margin:20px 20px 20px 20px; " >
+<img src="myphotoo.jpg" style="height:320px;
+				display: flex;
+				justify-content: center;
+				align-items: center; >
 					</div>
 				</div>
 			</div>
@@ -125,6 +125,7 @@
 	</body>
 
 </html>
+
 
 
 
