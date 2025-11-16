@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2025-11-17T00:55:57+03:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2025-11-17T01:30:37+03:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
@@ -7,7 +7,7 @@
             MEDIA_URL="file:///C:/Users/HP1/Downloads/Tumen_ame2007.avi.mp4"
             MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./Tumen_ame2007.avi.mp4"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:531832a2-2d11-447f-9fba-fec1c030fb5f</PROPERTY>
-        <PROPERTY NAME="lastUsedAnnotationId">2509</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">2591</PROPERTY>
     </HEADER>
     <TIME_ORDER>
         <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="956601"/>
@@ -1158,10 +1158,12 @@
         <TIME_SLOT TIME_SLOT_ID="ts1146" TIME_VALUE="1222610"/>
         <TIME_SLOT TIME_SLOT_ID="ts1147" TIME_VALUE="1222672"/>
         <TIME_SLOT TIME_SLOT_ID="ts1148" TIME_VALUE="1222843"/>
-        <TIME_SLOT TIME_SLOT_ID="ts1149" TIME_VALUE="1223059"/>
-        <TIME_SLOT TIME_SLOT_ID="ts1150" TIME_VALUE="1223127"/>
-        <TIME_SLOT TIME_SLOT_ID="ts1151" TIME_VALUE="1223980"/>
-        <TIME_SLOT TIME_SLOT_ID="ts1152" TIME_VALUE="1223996"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1149" TIME_VALUE="1223010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1150" TIME_VALUE="1223059"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1151" TIME_VALUE="1223127"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1152" TIME_VALUE="1223597"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1153" TIME_VALUE="1223980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts1154" TIME_VALUE="1223996"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="@nam2007f" LINGUISTIC_TYPE_REF="utterance"
         PARTICIPANT="@mea2007f" TIER_ID="text@mea2007f">
@@ -1740,7 +1742,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a889"
-                TIME_SLOT_REF1="ts1148" TIME_SLOT_REF2="ts1152">
+                TIME_SLOT_REF1="ts1148" TIME_SLOT_REF2="ts1154">
                 <ANNOTATION_VALUE>ну классно</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -6072,13 +6074,13 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a897"
-                TIME_SLOT_REF1="ts1148" TIME_SLOT_REF2="ts1150">
+                TIME_SLOT_REF1="ts1148" TIME_SLOT_REF2="ts1151">
                 <ANNOTATION_VALUE>ну</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a898"
-                TIME_SLOT_REF1="ts1150" TIME_SLOT_REF2="ts1152">
+                TIME_SLOT_REF1="ts1151" TIME_SLOT_REF2="ts1154">
                 <ANNOTATION_VALUE>классно</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -9852,16 +9854,16 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1769"
-                CVE_REF="cveid_43237921-eddb-46f0-b3b8-6e62f2cb3ec3"
+                CVE_REF="cveid_658cd931-adc8-4696-9901-0cff27bcbd75"
                 TIME_SLOT_REF1="ts282" TIME_SLOT_REF2="ts286">
-                <ANNOTATION_VALUE>прагматический</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>адаптор</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2116"
-                CVE_REF="cveid_43237921-eddb-46f0-b3b8-6e62f2cb3ec3"
+                CVE_REF="cveid_658cd931-adc8-4696-9901-0cff27bcbd75"
                 TIME_SLOT_REF1="ts289" TIME_SLOT_REF2="ts293">
-                <ANNOTATION_VALUE>прагматический</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>адаптор</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10473,6 +10475,13 @@
                 <ANNOTATION_VALUE>прагматический</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2510"
+                CVE_REF="cveid_43237921-eddb-46f0-b3b8-6e62f2cb3ec3"
+                TIME_SLOT_REF1="ts1149" TIME_SLOT_REF2="ts1152">
+                <ANNOTATION_VALUE>прагматический</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
     </TIER>
     <TIER ANNOTATOR="@nam2007f" LINGUISTIC_TYPE_REF="gesture_meaning"
         PARENT_REF="gestType@mea2007f" PARTICIPANT="@mea2007f" TIER_ID="gestMeaning@mea2007f">
@@ -10652,13 +10661,373 @@
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2511" ANNOTATION_REF="a2126">
+                <ANNOTATION_VALUE>нервно щёлкает пальцами</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2512" ANNOTATION_REF="a2127">
+                <ANNOTATION_VALUE>дёрнула головой</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2513" ANNOTATION_REF="a2128">
+                <ANNOTATION_VALUE>подняла голову перед жестомс началом описания</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2514" ANNOTATION_REF="a2129">
+                <ANNOTATION_VALUE>изображает новую стойку</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2515" ANNOTATION_REF="a2140">
+                <ANNOTATION_VALUE>подчеркивает ритм фразы</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2516" ANNOTATION_REF="a2141">
+                <ANNOTATION_VALUE>указывает на стену</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2517" ANNOTATION_REF="a2142">
+                <ANNOTATION_VALUE>изображает, что нарисовано на стене</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2518" ANNOTATION_REF="a2143">
+                <ANNOTATION_VALUE>незнание </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2519" ANNOTATION_REF="a2144">
+                <ANNOTATION_VALUE>изображает, где на стене рисунки</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2520" ANNOTATION_REF="a2145">
+                <ANNOTATION_VALUE>подчеркивает ритм повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2521" ANNOTATION_REF="a2146">
+                <ANNOTATION_VALUE>отрицание</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2522" ANNOTATION_REF="a2188">
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2523" ANNOTATION_REF="a2189">
+                <ANNOTATION_VALUE>хлопок + радость</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2524" ANNOTATION_REF="a2190">
+                <ANNOTATION_VALUE>поправила рукав</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2525" ANNOTATION_REF="a2191">
+                <ANNOTATION_VALUE>радость</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2526" ANNOTATION_REF="a2192">
+                <ANNOTATION_VALUE>поправила рукав</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2527" ANNOTATION_REF="a2193">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2258" ANNOTATION_REF="a2194">
                 <ANNOTATION_VALUE>показывает числительные сколько раз в год</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2528" ANNOTATION_REF="a2195">
+                <ANNOTATION_VALUE>подчеркивает ритм повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2529" ANNOTATION_REF="a2196">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2530" ANNOTATION_REF="a2197">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2531" ANNOTATION_REF="a2198">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2532" ANNOTATION_REF="a2199">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2533" ANNOTATION_REF="a2114">
+                <ANNOTATION_VALUE>выделение фразы</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2534" ANNOTATION_REF="a2200">
+                <ANNOTATION_VALUE>чешет лицо и поправляет позу</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2535" ANNOTATION_REF="a2201">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2536" ANNOTATION_REF="a2202">
+                <ANNOTATION_VALUE>обращает внимание на ключевые высказывания</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2537" ANNOTATION_REF="a2203">
+                <ANNOTATION_VALUE>указывает на камеру</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2440" ANNOTATION_REF="a2204">
                 <ANNOTATION_VALUE>повернула голову на собседника</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2538" ANNOTATION_REF="a2205">
+                <ANNOTATION_VALUE>изображает руками целый день с помощью круговых движений</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2539" ANNOTATION_REF="a2206">
+                <ANNOTATION_VALUE>указывает на предшествующее действие</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2540" ANNOTATION_REF="a2207">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2541" ANNOTATION_REF="a2208">
+                <ANNOTATION_VALUE>щёлкает пальцами</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2542" ANNOTATION_REF="a2209">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2543" ANNOTATION_REF="a2210">
+                <ANNOTATION_VALUE>поправляет волосы</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2544" ANNOTATION_REF="a2211">
+                <ANNOTATION_VALUE>руками показывает длительность дня</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2545" ANNOTATION_REF="a2212">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2546" ANNOTATION_REF="a2213">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2547" ANNOTATION_REF="a2214">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2548" ANNOTATION_REF="a2215">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2549" ANNOTATION_REF="a2216">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2550" ANNOTATION_REF="a2217">
+                <ANNOTATION_VALUE>указывает на действие</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2551" ANNOTATION_REF="a2218">
+                <ANNOTATION_VALUE>поправляет кофту</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2552" ANNOTATION_REF="a2219">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2553" ANNOTATION_REF="a2220">
+                <ANNOTATION_VALUE>сложила руки</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2554" ANNOTATION_REF="a2221">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2555" ANNOTATION_REF="a2222">
+                <ANNOTATION_VALUE>сложила руки</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2556" ANNOTATION_REF="a2223">
+                <ANNOTATION_VALUE>изображает процесс круговыми движениями</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2557" ANNOTATION_REF="a2224">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2558" ANNOTATION_REF="a2225">
+                <ANNOTATION_VALUE>повернула голову к собеседнику</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2559" ANNOTATION_REF="a2226">
+                <ANNOTATION_VALUE>скептицизм </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2560" ANNOTATION_REF="a2227">
+                <ANNOTATION_VALUE>показывает направление</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2561" ANNOTATION_REF="a2228">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2562" ANNOTATION_REF="a2229">
+                <ANNOTATION_VALUE>показывает направление </ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2563" ANNOTATION_REF="a2230">
+                <ANNOTATION_VALUE>теребит руки и пальцы</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2564" ANNOTATION_REF="a2231">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2565" ANNOTATION_REF="a2232">
+                <ANNOTATION_VALUE>руками показывает совместость действия</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2566" ANNOTATION_REF="a2233">
+                <ANNOTATION_VALUE>глубокая удовлетворенность</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2567" ANNOTATION_REF="a2234">
+                <ANNOTATION_VALUE>радость</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2568" ANNOTATION_REF="a2235">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2569" ANNOTATION_REF="a2236">
+                <ANNOTATION_VALUE>круговое движение показывает процесс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2570" ANNOTATION_REF="a2237">
+                <ANNOTATION_VALUE>поправляет позу и щёлкает пальцами</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2571" ANNOTATION_REF="a2238">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2572" ANNOTATION_REF="a2239">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2573" ANNOTATION_REF="a2240">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2574" ANNOTATION_REF="a2241">
+                <ANNOTATION_VALUE>теребит пальцы и поднимает голову</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2575" ANNOTATION_REF="a2242">
+                <ANNOTATION_VALUE>указывает на объекта находящегося вне поля зрения</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2576" ANNOTATION_REF="a2243">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2577" ANNOTATION_REF="a2244">
+                <ANNOTATION_VALUE>мнет пальцы и ладони</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2578" ANNOTATION_REF="a2245">
+                <ANNOTATION_VALUE>напряжение</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2579" ANNOTATION_REF="a2246">
+                <ANNOTATION_VALUE>ожидает рекции собеседника</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2580" ANNOTATION_REF="a2247">
+                <ANNOTATION_VALUE>убрала руки</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2581" ANNOTATION_REF="a2248">
+                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2582" ANNOTATION_REF="a2147">
+                <ANNOTATION_VALUE>сложила руки</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10669,6 +11038,36 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2260" ANNOTATION_REF="a2149">
                 <ANNOTATION_VALUE>изображает процесс вручения подарка</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2583" ANNOTATION_REF="a2150">
+                <ANNOTATION_VALUE>прикоснулась к глазу</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2584" ANNOTATION_REF="a2151">
+                <ANNOTATION_VALUE>круговое движение показывает процесс</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2585" ANNOTATION_REF="a2152">
+                <ANNOTATION_VALUE>изображает два варианта событи</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2586" ANNOTATION_REF="a2153">
+                <ANNOTATION_VALUE>сложила руки</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2587" ANNOTATION_REF="a2154">
+                <ANNOTATION_VALUE>качает головой в такт повествованию</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2588" ANNOTATION_REF="a2510">
+                <ANNOTATION_VALUE>ожидание реации собеседника</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -10691,12 +11090,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2155" ANNOTATION_REF="a2143">
-                <ANNOTATION_VALUE>пожимает плечами, говоря, что не знает</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2156" ANNOTATION_REF="a2144">
-                <ANNOTATION_VALUE>поворачивается описывая рисунок</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10711,7 +11110,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2262" ANNOTATION_REF="a2189">
-                <ANNOTATION_VALUE>подвинула тело</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10721,12 +11120,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2264" ANNOTATION_REF="a2198">
-                <ANNOTATION_VALUE>тело немного наклоняется в след за руками</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2265" ANNOTATION_REF="a2200">
-                <ANNOTATION_VALUE>поправляется на стуле</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10786,7 +11185,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2277" ANNOTATION_REF="a2239">
-                <ANNOTATION_VALUE>наклонила корпус</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10879,12 +11278,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2131" ANNOTATION_REF="a2127">
-                <ANNOTATION_VALUE>дёрнула головой</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2132" ANNOTATION_REF="a2128">
-                <ANNOTATION_VALUE>подняла голову перед жестомс началом описания</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10899,7 +11298,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2163" ANNOTATION_REF="a2141">
-                <ANNOTATION_VALUE>параллельно смотрит на собеседника</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10909,7 +11308,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2165" ANNOTATION_REF="a2143">
-                <ANNOTATION_VALUE>дернула головой</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10929,12 +11328,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2279" ANNOTATION_REF="a2195">
-                <ANNOTATION_VALUE>в конце реплики смотрит на собеседника</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2280" ANNOTATION_REF="a2196">
-                <ANNOTATION_VALUE>поднимает голову наверх</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10949,12 +11348,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2283" ANNOTATION_REF="a2207">
-                <ANNOTATION_VALUE>качает выражая отрицание</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2284" ANNOTATION_REF="a2211">
-                <ANNOTATION_VALUE>поворачивается к собеседнику</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10964,7 +11363,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2286" ANNOTATION_REF="a2214">
-                <ANNOTATION_VALUE>качает головой в такт фразы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10974,12 +11373,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2288" ANNOTATION_REF="a2225">
-                <ANNOTATION_VALUE>повернула голову к собеседнику</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2289" ANNOTATION_REF="a2226">
-                <ANNOTATION_VALUE>скептицизм </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -10994,17 +11393,17 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2292" ANNOTATION_REF="a2230">
-                <ANNOTATION_VALUE>наклонила голову от собеседника</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2293" ANNOTATION_REF="a2232">
-                <ANNOTATION_VALUE>повернулась к собеседнику</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2294" ANNOTATION_REF="a2237">
-                <ANNOTATION_VALUE>повернулась от собеседника</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11014,7 +11413,7 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2296" ANNOTATION_REF="a2241">
-                <ANNOTATION_VALUE>в середине жеста подняла голову</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11024,12 +11423,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2298" ANNOTATION_REF="a2246">
-                <ANNOTATION_VALUE>повернулась к собеседнику</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2169" ANNOTATION_REF="a2148">
-                <ANNOTATION_VALUE>в конце жеста повернулась к собеседнику</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11044,7 +11443,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2172" ANNOTATION_REF="a2154">
-                <ANNOTATION_VALUE>качает головой</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2589" ANNOTATION_REF="a2510">
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -11152,72 +11556,72 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2137" ANNOTATION_REF="a2126">
-                <ANNOTATION_VALUE>нервозность, щёлкает </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2138" ANNOTATION_REF="a2129">
-                <ANNOTATION_VALUE>изображает новую стойку</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2173" ANNOTATION_REF="a2140">
-                <ANNOTATION_VALUE>подчеркивает ритм фразы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2174" ANNOTATION_REF="a2141">
-                <ANNOTATION_VALUE>указывает на стену</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2175" ANNOTATION_REF="a2142">
-                <ANNOTATION_VALUE>изображает, что нарисовано на стене</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2176" ANNOTATION_REF="a2144">
-                <ANNOTATION_VALUE>изображает, где на стене рисунки</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2177" ANNOTATION_REF="a2145">
-                <ANNOTATION_VALUE>подчеркивает ритм повестования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2178" ANNOTATION_REF="a2146">
-                <ANNOTATION_VALUE>отрицание взмахом руки</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2299" ANNOTATION_REF="a2188">
-                <ANNOTATION_VALUE>указывает примерное расположение телевизора</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2300" ANNOTATION_REF="a2189">
-                <ANNOTATION_VALUE>хлопок, радость</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2301" ANNOTATION_REF="a2190">
-                <ANNOTATION_VALUE>поправила рукав</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2302" ANNOTATION_REF="a2191">
-                <ANNOTATION_VALUE>радость</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2303" ANNOTATION_REF="a2192">
-                <ANNOTATION_VALUE>поправила рукав</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2304" ANNOTATION_REF="a2193">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11227,147 +11631,147 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2306" ANNOTATION_REF="a2195">
-                <ANNOTATION_VALUE>подчеркивает ритм повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2307" ANNOTATION_REF="a2196">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2308" ANNOTATION_REF="a2197">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2309" ANNOTATION_REF="a2198">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2310" ANNOTATION_REF="a2199">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2115" ANNOTATION_REF="a2114">
-                <ANNOTATION_VALUE>выделение фразы "номером"</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2311" ANNOTATION_REF="a2200">
-                <ANNOTATION_VALUE>чешет бровь</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2312" ANNOTATION_REF="a2201">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2313" ANNOTATION_REF="a2202">
-                <ANNOTATION_VALUE>обращает внимание на ключевые высказываниия</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2314" ANNOTATION_REF="a2203">
-                <ANNOTATION_VALUE>обращение внимания зрителя</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2315" ANNOTATION_REF="a2205">
-                <ANNOTATION_VALUE>изображает руками целый день с помощью круговых движений</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2316" ANNOTATION_REF="a2206">
-                <ANNOTATION_VALUE>показывает предществующее действие</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2317" ANNOTATION_REF="a2207">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2318" ANNOTATION_REF="a2209">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2319" ANNOTATION_REF="a2210">
-                <ANNOTATION_VALUE>поправляет волосы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2320" ANNOTATION_REF="a2211">
-                <ANNOTATION_VALUE>руками показывает длительность дня</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2321" ANNOTATION_REF="a2212">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2322" ANNOTATION_REF="a2213">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2323" ANNOTATION_REF="a2214">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2324" ANNOTATION_REF="a2215">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2325" ANNOTATION_REF="a2216">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2326" ANNOTATION_REF="a2217">
-                <ANNOTATION_VALUE>указывает на действие</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2327" ANNOTATION_REF="a2218">
-                <ANNOTATION_VALUE>поправляет кофту</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2328" ANNOTATION_REF="a2219">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2329" ANNOTATION_REF="a2220">
-                <ANNOTATION_VALUE>сложила руки</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2330" ANNOTATION_REF="a2221">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2331" ANNOTATION_REF="a2222">
-                <ANNOTATION_VALUE>сложила руки</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2332" ANNOTATION_REF="a2223">
-                <ANNOTATION_VALUE>узображает процесс круговыми движениями</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2333" ANNOTATION_REF="a2224">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11377,17 +11781,17 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2335" ANNOTATION_REF="a2227">
-                <ANNOTATION_VALUE>показывает направление</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2336" ANNOTATION_REF="a2228">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2337" ANNOTATION_REF="a2229">
-                <ANNOTATION_VALUE>показывает направление </ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11397,27 +11801,27 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2339" ANNOTATION_REF="a2231">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2340" ANNOTATION_REF="a2232">
-                <ANNOTATION_VALUE>руками показывает совместость действия</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2341" ANNOTATION_REF="a2233">
-                <ANNOTATION_VALUE>глубокая удовлетворенность</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2342" ANNOTATION_REF="a2234">
-                <ANNOTATION_VALUE>радость</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2343" ANNOTATION_REF="a2235">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11432,57 +11836,57 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2346" ANNOTATION_REF="a2238">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2347" ANNOTATION_REF="a2239">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2348" ANNOTATION_REF="a2240">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2349" ANNOTATION_REF="a2241">
-                <ANNOTATION_VALUE>ковыряет пальцы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2350" ANNOTATION_REF="a2242">
-                <ANNOTATION_VALUE>указывает на объекта находящегося вне поля зрения</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2351" ANNOTATION_REF="a2243">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2352" ANNOTATION_REF="a2244">
-                <ANNOTATION_VALUE>мнет пальцы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2353" ANNOTATION_REF="a2245">
-                <ANNOTATION_VALUE>напряжение</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2354" ANNOTATION_REF="a2247">
-                <ANNOTATION_VALUE>убрала руки</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2355" ANNOTATION_REF="a2248">
-                <ANNOTATION_VALUE>подчеркивает ход повествования</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2179" ANNOTATION_REF="a2147">
-                <ANNOTATION_VALUE>сложила руки</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11497,22 +11901,22 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2182" ANNOTATION_REF="a2150">
-                <ANNOTATION_VALUE>прикоснулась к глазу</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2183" ANNOTATION_REF="a2151">
-                <ANNOTATION_VALUE>круговое движение показывает совпадение</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2184" ANNOTATION_REF="a2152">
-                <ANNOTATION_VALUE>изображает два варианта события</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2185" ANNOTATION_REF="a2153">
-                <ANNOTATION_VALUE>сложила руки</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -11525,12 +11929,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2139" ANNOTATION_REF="a2126">
-                <ANNOTATION_VALUE>щёлкает пальцами</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2356" ANNOTATION_REF="a2189">
-                <ANNOTATION_VALUE>подвинула ногу</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11545,22 +11949,22 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2359" ANNOTATION_REF="a2202">
-                <ANNOTATION_VALUE>палец указывает когда нужно обратить внимание</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2360" ANNOTATION_REF="a2203">
-                <ANNOTATION_VALUE>указывает на камеру</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2361" ANNOTATION_REF="a2206">
-                <ANNOTATION_VALUE>указывает на предшествующее действие</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2362" ANNOTATION_REF="a2208">
-                <ANNOTATION_VALUE>нервно щёлкает пальцы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11570,22 +11974,22 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2364" ANNOTATION_REF="a2230">
-                <ANNOTATION_VALUE>ковыряет пальцы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2365" ANNOTATION_REF="a2236">
-                <ANNOTATION_VALUE>круговое движение показывает процесс</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2366" ANNOTATION_REF="a2237">
-                <ANNOTATION_VALUE>щелкает пальцы</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2367" ANNOTATION_REF="a2244">
-                <ANNOTATION_VALUE>мнет ладонь</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
@@ -11902,9 +12306,9 @@
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2389"
-                CVE_REF="cveid_658cd931-adc8-4696-9901-0cff27bcbd75"
+                CVE_REF="cveid_7ce148e9-d116-4202-8d44-266879edf0a5"
                 TIME_SLOT_REF1="ts920" TIME_SLOT_REF2="ts925">
-                <ANNOTATION_VALUE>адаптор</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>эмблема</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -11952,7 +12356,7 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2456"
                 CVE_REF="cveid_658cd931-adc8-4696-9901-0cff27bcbd75"
-                TIME_SLOT_REF1="ts1149" TIME_SLOT_REF2="ts1151">
+                TIME_SLOT_REF1="ts1150" TIME_SLOT_REF2="ts1153">
                 <ANNOTATION_VALUE>адаптор</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
@@ -12167,6 +12571,16 @@
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2465" ANNOTATION_REF="a2449">
                 <ANNOTATION_VALUE>проверяет нервно запись</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2590" ANNOTATION_REF="a2388">
+                <ANNOTATION_VALUE>ностальгия</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2591" ANNOTATION_REF="a2389">
+                <ANNOTATION_VALUE>согласие</ANNOTATION_VALUE>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
@@ -12467,12 +12881,12 @@
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2433" ANNOTATION_REF="a2388">
-                <ANNOTATION_VALUE>чувство ностальгии</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2434" ANNOTATION_REF="a2389">
-                <ANNOTATION_VALUE>согласие</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE/>
             </REF_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
